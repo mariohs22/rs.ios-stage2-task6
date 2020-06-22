@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  Triangle.h
 //  rs.ios-stage2-task6
 //
 //  Created by Siarhei Burakouski on 6/23/20.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
-
+@interface Triangle : UIView
+- (void)animate;
 @end
 
+NS_ASSUME_NONNULL_END
