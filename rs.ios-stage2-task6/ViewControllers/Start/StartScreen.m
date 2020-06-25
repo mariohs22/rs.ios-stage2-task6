@@ -35,8 +35,8 @@
     
     self.label.translatesAutoresizingMaskIntoConstraints = NO;
     [NSLayoutConstraint activateConstraints: @[
-        [self.label.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor constant:-150.0],
-        [self.label.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
+        [self.label.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor constant:-110.0],
+        [self.label.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor]
     ]];
     
     // MARK: Figures container
@@ -76,9 +76,9 @@
     self.startBtn.translatesAutoresizingMaskIntoConstraints = NO;
     [NSLayoutConstraint activateConstraints:@[
         [self.startBtn.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
-        [self.startBtn.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:-150],
+        [self.startBtn.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor constant: 110.0],
         [self.startBtn.heightAnchor constraintEqualToConstant:55.0],
-        [self.startBtn.widthAnchor constraintEqualToAnchor:self.view.widthAnchor constant:-100]
+        [self.startBtn.widthAnchor constraintEqualToAnchor:self.view.widthAnchor constant:-100.0]
     ]];
     
     [self.startBtn addTarget:self action:@selector(startBtnTapped) forControlEvents:UIControlEventTouchUpInside];

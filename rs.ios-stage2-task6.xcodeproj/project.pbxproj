@@ -18,6 +18,9 @@
 		CE3E690224A1609400814BC4 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E690124A1609400814BC4 /* Square.m */; };
 		CE3E690524A1614F00814BC4 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E690424A1614F00814BC4 /* Triangle.m */; };
 		CE3E690824A1698300814BC4 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E690724A1698300814BC4 /* TabBarController.m */; };
+		CE3E690B24A16D5800814BC4 /* TabBarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E690A24A16D5800814BC4 /* TabBarInfo.m */; };
+		CE3E690F24A1713B00814BC4 /* TabBarGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E690E24A1713B00814BC4 /* TabBarGallery.m */; };
+		CE3E691224A1724B00814BC4 /* TabBarHome.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E691124A1724B00814BC4 /* TabBarHome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,12 @@
 		CE3E690424A1614F00814BC4 /* Triangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 		CE3E690624A1698300814BC4 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		CE3E690724A1698300814BC4 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		CE3E690924A16D5800814BC4 /* TabBarInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarInfo.h; sourceTree = "<group>"; };
+		CE3E690A24A16D5800814BC4 /* TabBarInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarInfo.m; sourceTree = "<group>"; };
+		CE3E690D24A1713B00814BC4 /* TabBarGallery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarGallery.h; sourceTree = "<group>"; };
+		CE3E690E24A1713B00814BC4 /* TabBarGallery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarGallery.m; sourceTree = "<group>"; };
+		CE3E691024A1724B00814BC4 /* TabBarHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarHome.h; sourceTree = "<group>"; };
+		CE3E691124A1724B00814BC4 /* TabBarHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarHome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,14 +100,13 @@
 		CE3E68F524A1574D00814BC4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE3E68FD24A15F6F00814BC4 /* Circle.h */,
-				CE3E68FE24A15F6F00814BC4 /* Circle.m */,
-				CE3E690024A1609400814BC4 /* Square.h */,
-				CE3E690124A1609400814BC4 /* Square.m */,
-				CE3E690324A1614F00814BC4 /* Triangle.h */,
-				CE3E690424A1614F00814BC4 /* Triangle.m */,
-				CE3E68F624A1577E00814BC4 /* StartScreen.h */,
-				CE3E68F724A1577E00814BC4 /* StartScreen.m */,
+				CE3E690C24A16D9300814BC4 /* Start */,
+				CE3E690924A16D5800814BC4 /* TabBarInfo.h */,
+				CE3E690A24A16D5800814BC4 /* TabBarInfo.m */,
+				CE3E690D24A1713B00814BC4 /* TabBarGallery.h */,
+				CE3E690E24A1713B00814BC4 /* TabBarGallery.m */,
+				CE3E691024A1724B00814BC4 /* TabBarHome.h */,
+				CE3E691124A1724B00814BC4 /* TabBarHome.m */,
 				CE3E690624A1698300814BC4 /* TabBarController.h */,
 				CE3E690724A1698300814BC4 /* TabBarController.m */,
 			);
@@ -112,6 +120,21 @@
 				CE3E68FB24A15C9E00814BC4 /* Colors.m */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		CE3E690C24A16D9300814BC4 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E68FD24A15F6F00814BC4 /* Circle.h */,
+				CE3E68FE24A15F6F00814BC4 /* Circle.m */,
+				CE3E690024A1609400814BC4 /* Square.h */,
+				CE3E690124A1609400814BC4 /* Square.m */,
+				CE3E690324A1614F00814BC4 /* Triangle.h */,
+				CE3E690424A1614F00814BC4 /* Triangle.m */,
+				CE3E68F624A1577E00814BC4 /* StartScreen.h */,
+				CE3E68F724A1577E00814BC4 /* StartScreen.m */,
+			);
+			path = Start;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +213,9 @@
 				CE3E690524A1614F00814BC4 /* Triangle.m in Sources */,
 				CE3E690224A1609400814BC4 /* Square.m in Sources */,
 				CE3E68FF24A15F6F00814BC4 /* Circle.m in Sources */,
+				CE3E690F24A1713B00814BC4 /* TabBarGallery.m in Sources */,
+				CE3E691224A1724B00814BC4 /* TabBarHome.m in Sources */,
+				CE3E690B24A16D5800814BC4 /* TabBarInfo.m in Sources */,
 				CE3E68F824A1577E00814BC4 /* StartScreen.m in Sources */,
 				CE3E68ED24A1562900814BC4 /* main.m in Sources */,
 			);

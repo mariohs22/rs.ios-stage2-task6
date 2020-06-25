@@ -1,5 +1,5 @@
 //
-//  TabBarController.h
+//  TabBarHome.h
 //  rs.ios-stage2-task6
 //
 //  Created by Siarhei Burakouski on 6/23/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TabBarController : UITabBarController <UITabBarControllerDelegate>
+@interface TabBarHome : UIViewController
 
 @end
 
