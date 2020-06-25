@@ -19,7 +19,7 @@
     [super viewDidLoad];
     self.topContainer = [UIStackView new];
     UIImageView *logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"apple"]];
-    UITextView *devContainer = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, 200, 70)];
+    UITextView *devContainer = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, 100, 70)];
     [self.topContainer addArrangedSubview:logo];
     [self.topContainer addArrangedSubview:devContainer];
     [self.topContainer setDistribution:UIStackViewDistributionEqualCentering];
